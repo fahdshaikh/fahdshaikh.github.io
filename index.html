@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="default.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="blue.css">
 </head>
 <body>
     <section class="s1">
@@ -32,11 +33,11 @@
                 <div class="left-column">
                     <img id="profile_pic" src="images/fahad.jpg"> 
                      <!-- https://mail.google.com/mail/u/0/#inbox -->
-                    <h6 style="text-align: center; line-height: 0;">+91 8446006503 <a href="#">fahadshaikh9776@gmail.com</a></a></h6>
+                    <h6 style="text-align: center; line-height: 0;">+91 8446006503 <a target="_blank" href="#">fahadshaikh9776@gmail.com</a></a></h6>
 
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="light-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
                         <div id="light-mode" class="theme-dot"></div>
                         <div id="light-mode" class="theme-dot"></div>
                     </div>
@@ -64,12 +65,69 @@
     <section class="s2">
         <div class="main-container">
             <!-- About  -->
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+                    <p>I build new projects to tackle my brain and love teaching others how they are made.</p>
+                    <p>While I keep busy teaching courses, I still take interviews in search of a a great team & projects that interest me.</p>
+                    <hr>
+                    <h4>TOP EXPERTISE</h4>
+                    <p>Full Stack Developer: <a target="_blank" href="resume.pdf">Download Resume</a></p>
+                    <div id="skills">
+                        <ul style="list-style-type: none">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                            <li>JS Charts</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-links">
+                    
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="s1">
         <div class="main-container">
             <!-- Portfolio -->
+            <h3 style="text-align: center">Some of my projects</h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/dummy.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is a sentence. Some more information.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/dummy.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is a sentence. Some more information.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/dummy.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is a sentence. Some more information.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
@@ -78,6 +136,8 @@
             <!-- Contact  -->
         </div>
     </section>
+
+    <script type="text/javascript" src="script.js"></script>
     
 </body>
 </html>
