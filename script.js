@@ -7,7 +7,7 @@ if(theme == null){
 	setTheme(theme)
 }
 
-let themeDots = document.getElementsByClassName('theme-dot')
+let themeDots = document.getElementsByClassName('new-theme-dot')
 
 
 for (var i=0; themeDots.length > i; i++){
