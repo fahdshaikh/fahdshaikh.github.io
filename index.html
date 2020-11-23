@@ -1,264 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Mohd. Fahad Shaikh</title>
+    <head>
+        <title>Mohd. Fahad Shaikh</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-    <script src="https://kit.fontawesome.com/c34fec7b4b.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="./images/favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="default.css">
-    <link id="theme-style" rel="stylesheet" type="text/css" href="blue.css">
-</head>
-<body>
-    <section class="s1">
-        <div class="main-container">
-            <div class="greeting-wrapper">
-                <h1>Hi, I'm Mohd. Fahad Shaikh.</h1>
-            </div>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
+        />
+        <script
+            src="https://kit.fontawesome.com/c34fec7b4b.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+            rel="stylesheet"
+        />
+        <!-- <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+            crossorigin="anonymous"
+        /> -->
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
-            <div class="intro-wrapper">
-                <div class="nav-wrapper">
-                    <div class="dots-wrapper">
-                        <div id="dot-1" class="browser-dot"></div>
-                        <div id="dot-2" class="browser-dot"></div>
-                        <div id="dot-3" class="browser-dot"></div>
-                    </div>
-
-                    <ul id="new-theme">
-                        <li><div data-mode="light" id="dot-4" class="browser-dot new-theme-dot"></div></li>
-                        <li><div data-mode="blue" id="dot-5" class="browser-dot new-theme-dot"></div></li>
-                    </ul>
-                </div>
-                
-                <div class="left-column">
-                    <img id="profile_pic" src="images/fahad.jpg"> 
-                     <!-- https://mail.google.com/mail/u/0/#inbox -->
-                    <!-- <h6 style="text-align: center; line-height: 0;">+91 8446006503 <a target="_blank" href="#">fahadshaikh9776@gmail.com</a></a></h6> -->
-                    <!-- <h4 style="text-align: center; line-height: 0; padding: 0; margin:20px 0;"> < FULL STACK DEVELOPER /> </h4> -->
-                    <div style="text-align: center; line-height: 0; padding: 0; margin:20px 0;">
-                        <span><i class="fas fa-chevron-left"></i></span>
-                        <span>&nbsp;</span>
-                        <span>F</span>
-                        <span>U</span>
-                        <span>L</span>
-                        <span>L</span>
-                        <span>&nbsp;</span>
-                        <span>S</span>
-                        <span>T</span>
-                        <span>A</span>
-                        <span>C</span>
-                        <span>K</span>
-                        <span>&nbsp;</span>
-                        <span>D</span>
-                        <span>E</span>
-                        <span>V</span>
-                        <span>E</span>
-                        <span>L</span>
-                        <span>O</span>
-                        <span>P</span>
-                        <span>E</span>
-                        <span>R</span>
-                        <span>&nbsp;</span>
-                        <span><i class="fas fa-slash fa-rotate-90"></i></span>
-                        <span><i class="fas fa-chevron-right"></i></span>
-                    </div>
-
-                    <div id="connect-icon-wrapper">
-                        <div class="site-icon"><a href="#"><i class="fa fa-github fa-2x" id="one"></i></a></div>
-                        <div class="site-icon"><a href="#"><i class="fa fa-linkedin fa-2x" id="two"></i></a></div>
-                        <div class="site-icon"><a href="#"><i class="fa fa-twitter fa-2x" id="one" ></i></a></div>
-                    </div>
-
-                    <p id="note-1" style="margin: 0px 0px 0px 250px;">*To connect with me.</p>
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+        />
+        <link rel="icon" type="image/png" href="./images/favicon.png" />
+        <link rel="stylesheet" type="text/css" href="default.css" />
+        <link
+            id="theme-style"
+            rel="stylesheet"
+            type="text/css"
+            href="blue.css"
+        />
+    </head>
+    <body>
+        <section class="s1">
+            <div class="main-container">
+                <div class="greeting-wrapper">
+                    <h1>Hi, I'm Mohd. Fahad Shaikh.</h1>
                 </div>
 
-                <div class="right-column">
-                    <div id="preview-shadow">
-                        <div id="preview">
-                            <div id="corner-tl" class="corner"></div>
-                            <div id="corner-tr" class="corner"></div>
-                            <div class="headline" id="note-2"><h3>About Me...</h3><p>(in brief)</p></div><hr /><br />
-                            <div class="headline" id="note-2"><p>A passionate aspiring</p> <h6>Full Stack Developer</h6><p>, skilled in MERN Stack, with ability to</p> <h6>Work From Home<p>,</p> Collab Online </h6> <p> & having </p><h6>Life/Soft Skills.</h6></div>
-                            <div id="corner-br" class="corner"></div>
-                            <div id="corner-bl" class="corner"></div>
+                <div class="intro-wrapper">
+                    <div class="nav-wrapper">
+                        <div class="dots-wrapper">
+                            <div id="dot-1" class="browser-dot"></div>
+                            <div id="dot-2" class="browser-dot"></div>
+                            <div id="dot-3" class="browser-dot"></div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bottom-row">
-                <div class="technologies">
-                    <div class="tech-icon">
-                        <div><i class="fab fa-html5 fa-3x icon" style="background-color: #e54c27"></i></div>
-                        <h6 class="tech-icon-tags">HTML</h6>
-                    </div>
-                    <div class="tech-icon">
-                        <div><i class="fab fa-css3-alt fa-3x icon" style="background-color: #254ce4"></i></div>
-                        <h6 class="tech-icon-tags">CSS</h6>
-                    </div>
-                    <div class="tech-icon">
-                        <div><i class="fab fa-bootstrap fa-3x icon" style="background-color:#563d7c"></i></div>
-                        <h6 class="tech-icon-tags">Bootstrap</h6>
-                    </div>
-                    <div class="tech-icon">
-                        <div><i class="fab fa-js-square fa-3x icon" style="background-color:#fcd600"></i></div>
-                        <h6 class="tech-icon-tags">JavaScript</h6>
-                    </div>
-                    <div class="tech-icon">
-                        <div><i class="fab fa-react fa-3x icon" style="background-color:#00d7ff"></i></div>
-                        <h6 class="tech-icon-tags">React</h6>
-                    </div>
-                    <div class="tech-icon">
-                        <div><i class="fab fa-git-alt fa-3x icon" style="background-color:#402e00"></i></div>
-                        <h6 class="tech-icon-tags">Git</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="s2">
-        <div class="main-container">
-            <!-- About  -->
-            <div class="about-wrapper">
-                <div class="about-me">
-                    <h4 style=" line-height: 0; padding: 0; margin:20px 0;">More about me</h4>
-                    <hr>
-                    <p>While I keep busy teaching courses, I still take interviews in search of a a great team & projects that interest me.</p>
-                    <p>Born & raised in Maharashtra - Pune, I am passionate aspiring Full Stack Developer, skilled in MERN Stack </p>
-                    <p>Moulded and shaped by Masai School's intensive and immersive learning. </p>
-                    <p>I have ability to Work From Home, Colab Online & also have Life/Soft Skills.</p>
-                    <p>I build new projects to tackle my brain and understand how they are made.</p>
-                    <p>Looking forward to join a company where I shall be able to contibute towards individual and company growth.</p>
-                    <p>Full Stack Developer: <a target="_blank" href="resume.pdf">Download Resume</a></p>
-
-                    <h4 style=" line-height: 0; padding: 0; padding-top:10px; margin:20px 0;">PROFICIENCIES</h4><hr />
-                    <div id="proficiencies-list">
-                        <ul style="list-style-type: none">
-                            <li>Frontend.</li>
-                            <li>Backend.</li>
-                            <li>Data Structures.</li>
-                            <li>React.</li>
+                        <ul id="new-theme">
+                            <li>
+                                <div
+                                    data-mode="light"
+                                    id="dot-4"
+                                    class="browser-dot new-theme-dot"
+                                ></div>
+                            </li>
+                            <li>
+                                <div
+                                    data-mode="blue"
+                                    id="dot-5"
+                                    class="browser-dot new-theme-dot"
+                                ></div>
+                            </li>
                         </ul>
                     </div>
-                </div>
-                <div class="proficiencies-img">
-                    <h4 class="title">PROFICIENCIES <hr /></h4> 
-                    <div>
-                        <div class="proficiencies">
-                            <img src="images/frontend.png" />
-                            <h6>Frontend</h6>
-                            <p>Not just that I can even host the show</p>
-                        </div>
-                        <div class="proficiencies">
-                            <img src="images/react.png" />
-                            <h6>React</h6>
-                            <p>When it comes to react apps I have the strength of Atlas</p>
-                        </div>
-                        <div class="proficiencies">
-                            <img src="images/backend.png" />
-                            <h6>Backend</h6>
-                            <p>I am the one who runs the show</p>
-                        </div>
-                        <div class="proficiencies">
-                            <img src="images/ds.png" />
-                            <h6>Data Structures</h6>
-                            <p>Putting the right blocks in the right place is just my thing</p>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="s3">
-        <div class="main-container">
-            <h3 style="text-align: center">Some of my projects</h3><hr>
-            <div class="post-wrapper">
-                <div>
-                    <div class="post">
-                        <img class="thumbnail" src="images/dummy.jpg">
-                        <div class="post-preview">
-                            <h6 class="post-title">Post Title</h6>
-                            <p class="post-intro">This is a sentence. Some more information.</p>
-                            <div class="post-icons">
-                                <i class="fab fa-html5 fa-lg" style="background-color: #e54c27"></i>
-                                <i class="fab fa-css3-alt fa-lg" style="background-color: #254ce4"></i>
-                                <i class="fab fa-js-square fa-2x" style="background-color:#fcd600"></i>
+                    <div class="left-column">
+                        <img id="profile_pic" src="images/fahad.jpg" />
+                        <!-- https://mail.google.com/mail/u/0/#inbox -->
+                        <!-- <h6 style="text-align: center; line-height: 0;">+91 8446006503 <a target="_blank" href="#">fahadshaikh9776@gmail.com</a></a></h6> -->
+                        <!-- <h4 style="text-align: center; line-height: 0; padding: 0; margin:20px 0;"> < FULL STACK DEVELOPER /> </h4> -->
+                        <div
+                            style="
+                                text-align: center;
+                                line-height: 0;
+                                padding: 0;
+                                margin: 20px 0;
+                            "
+                        >
+                            <span><i class="fas fa-chevron-left"></i></span>
+                            <span>&nbsp;</span>
+                            <span>F</span>
+                            <span>U</span>
+                            <span>L</span>
+                            <span>L</span>
+                            <span>&nbsp;</span>
+                            <span>S</span>
+                            <span>T</span>
+                            <span>A</span>
+                            <span>C</span>
+                            <span>K</span>
+                            <span>&nbsp;</span>
+                            <span>D</span>
+                            <span>E</span>
+                            <span>V</span>
+                            <span>E</span>
+                            <span>L</span>
+                            <span>O</span>
+                            <span>P</span>
+                            <span>E</span>
+                            <span>R</span>
+                            <span>&nbsp;</span>
+                            <span
+                                ><i class="fas fa-slash fa-rotate-90"></i
+                            ></span>
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </div>
+
+                        <div id="connect-icon-wrapper">
+                            <div class="site-icon">
+                                <a
+                                    href="https://github.com/fahdshaikh"
+                                    target="_blank"
+                                    ><i class="fa fa-github fa-2x" id="one"></i
+                                ></a>
                             </div>
-                            <a class="post-a" href="#">Read More</a>
+                            <div class="site-icon">
+                                <a
+                                    href="https://www.linkedin.com/in/fahdshaikh1997"
+                                    target="_blank"
+                                    ><i
+                                        class="fa fa-linkedin fa-2x"
+                                        id="two"
+                                    ></i
+                                ></a>
+                            </div>
+                            <div class="site-icon">
+                                <a
+                                    href="https://twitter.com/FahdShaikh_"
+                                    target="_blank"
+                                    ><i class="fa fa-twitter fa-2x" id="one"></i
+                                ></a>
+                            </div>
+                        </div>
+
+                        <p id="note-1" style="margin: 0px 0px 0px 250px">
+                            *To connect with me.
+                        </p>
+                    </div>
+
+                    <div class="right-column">
+                        <div id="preview-shadow">
+                            <div id="preview">
+                                <div id="corner-tl" class="corner"></div>
+                                <div id="corner-tr" class="corner"></div>
+                                <div class="headline" id="note-2">
+                                    <h3>About Me...</h3>
+                                    <p>(in brief)</p>
+                                </div>
+                                <hr />
+                                <br />
+                                <div class="headline" id="note-2">
+                                    <p>A passionate aspiring</p>
+                                    <h6>Full Stack Developer</h6>
+                                    <p>
+                                        , skilled in MERN Stack, with ability to
+                                    </p>
+                                    <h6>
+                                        Work From Home
+                                        <p>,</p>
+                                        Collab Online
+                                    </h6>
+                                    <p>& having</p>
+                                    <h6>Life/Soft Skills.</h6>
+                                </div>
+                                <div id="corner-br" class="corner"></div>
+                                <div id="corner-bl" class="corner"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div>
-                    <div class="post">
-                        <img class="thumbnail" src="images/dummy.jpg">
-                        <div class="post-preview">
-                            <h6 class="post-title">Post Title</h6>
-                            <p class="post-intro">This is a sentence. Some more information.</p>
-                            <a href="#">Read More</a>
+                <div class="bottom-row">
+                    <div class="technologies">
+                        <div class="tech-icon">
+                            <div>
+                                <i
+                                    class="fab fa-html5 fa-3x icon"
+                                    style="
+                                        background-color: #e54c27;
+                                        display: table;
+                                    "
+                                ></i>
+                            </div>
+                            <h6 class="tech-icon-tags">HTML</h6>
+                        </div>
+                        <div class="tech-icon">
+                            <div>
+                                <i
+                                    class="fab fa-css3-alt fa-3x icon"
+                                    style="
+                                        background-color: #254ce4;
+                                        display: table;
+                                    "
+                                ></i>
+                            </div>
+                            <h6 class="tech-icon-tags">CSS</h6>
+                        </div>
+                        <div class="tech-icon">
+                            <div>
+                                <i
+                                    class="fab fa-bootstrap fa-3x icon"
+                                    style="
+                                        background-color: #563d7c;
+                                        display: table;
+                                    "
+                                ></i>
+                            </div>
+                            <h6 class="tech-icon-tags">Bootstrap</h6>
+                        </div>
+                        <div class="tech-icon">
+                            <div>
+                                <i
+                                    class="fab fa-js-square fa-3x icon"
+                                    style="
+                                        background-color: #fcd600;
+                                        display: table;
+                                    "
+                                ></i>
+                            </div>
+                            <h6 class="tech-icon-tags">JavaScript</h6>
+                        </div>
+                        <div class="tech-icon">
+                            <div>
+                                <i
+                                    class="fab fa-react fa-3x icon"
+                                    style="
+                                        background-color: #00d7ff;
+                                        display: table;
+                                    "
+                                ></i>
+                            </div>
+                            <h6 class="tech-icon-tags">React</h6>
+                        </div>
+                        <div class="tech-icon">
+                            <div style="margin-right: 10px">
+                                <i
+                                    class="fab fa-node fa-3x icon"
+                                    style="
+                                        background-color: #00ce0a;
+                                        margin-right: 10px;
+                                        display: table;
+                                    "
+                                ></i>
+                            </div>
+                            <h6 class="tech-icon-tags">NodeJS</h6>
+                        </div>
+                        <div class="tech-icon">
+                            <div>
+                                <i
+                                    class="fab fa-github fa-3x icon"
+                                    style="
+                                        background-color: #000000;
+                                        display: table;
+                                    "
+                                ></i>
+                            </div>
+                            <h6 class="tech-icon-tags">Github</h6>
                         </div>
                     </div>
                 </div>
-
-                <div>
-                    <div class="post">
-                        <img class="thumbnail" src="images/dummy.jpg">
-                        <div class="post-preview">
-                            <h6 class="post-title">Post Title</h6>
-                            <p class="post-intro">This is a sentence. Some more information.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="s4">
-        <div class="main-container">
-            <!-- Contact  -->
-            <h3 style="text-align: center">Contact Details...</h3><hr>
-            <div class="container">
-                <ul class="table">
-                    <li class="row">
-                        <div class="col-1">Name: </div>
-                        <div class="col-2"><p>Mohd. Fahad Shaikh</p></div>
-                    </li>
-                    <li class="row">
-                        <div class="col-1">Email: </div>
-                        <div class="col-2"><p>fahadshaikh9776@gmail.com</p></div>
-                    </li>
-                    <li class="row">
-                        <div class="col-1">Phone No.: </div>
-                        <div class="col-2"><p>+91-8446006503</p></div>
-                    </li>
-                    <li class="row">
-                        <div class="col-1" style="  padding: 0; margin:10px 0 0 0;">Social Media Reach:</div>
-                        <div class="col-2" id="connect-icon-wrapper">
-                            <div class="site-icon"><a href="#"><i class="fa fa-github fa-2x" id="one"></i></a></div>
-                            <div class="site-icon"><a href="#"><i class="fa fa-linkedin fa-2x" id="two"></i></a></div>
-                            <div class="site-icon"><a href="#"><i class="fa fa-twitter fa-2x" id="one" ></i></a></div>
+        <section class="s2">
+            <div class="main-container">
+                <!-- About  -->
+                <div class="about-wrapper">
+                    <div class="about-me">
+                        <h4 style="line-height: 0; padding: 0; margin: 20px 0">
+                            More about me
+                        </h4>
+                        <hr />
+                        <p>
+                            While I keep busy teaching courses, I still take
+                            interviews in search of a a great team & projects
+                            that interest me.
+                        </p>
+                        <p>
+                            Born & raised in Maharashtra - Pune, I am passionate
+                            aspiring Full Stack Developer, skilled in MERN Stack
+                        </p>
+                        <p>
+                            Moulded and shaped by Masai School's intensive and
+                            immersive learning.
+                        </p>
+                        <p>
+                            I have ability to Work From Home, Colab Online &
+                            also have Life/Soft Skills.
+                        </p>
+                        <p>
+                            I build new projects to tackle my brain and
+                            understand how they are made.
+                        </p>
+                        <p>
+                            Looking forward to join a company where I shall be
+                            able to contribute towards individual and company
+                            growth.
+                        </p>
+                        <p>
+                            Full Stack Developer:
+                            <a
+                                target="_blank"
+                                href="https://drive.google.com/drive/folders/1ED0M2wSg16-05DCjez94qO3cTf8iL_7M?usp=sharing"
+                                >Download Resume</a
+                            >
+                        </p>
+
+                        <h4
+                            style="
+                                line-height: 0;
+                                padding: 0;
+                                padding-top: 10px;
+                                margin: 20px 0;
+                            "
+                        >
+                            PROFICIENCIES
+                        </h4>
+                        <hr />
+                        <div id="proficiencies-list">
+                            <ul style="list-style-type: none">
+                                <li>Frontend.</li>
+                                <li>Backend.</li>
+                                <li>Data Structures.</li>
+                                <li>React.</li>
+                            </ul>
                         </div>
-                    </li>
-                    <li class="row">
-                        <div class="col-1">Current Location:</div>
-                        <div class="col-2"><p>Maharashtra - Pune</p></div>
-                    </li>
-                    <li class="row">
-                        <div class="col-1">Willing to relocate ??</div>
-                        <div class="col-2"><p>Absolutely..!!</p></div>
-                    </li>
-                </ul>
+                    </div>
+                    <div class="proficiencies-img">
+                        <h4 class="title">
+                            PROFICIENCIES
+                            <hr />
+                        </h4>
+                        <div>
+                            <div class="proficiencies">
+                                <img src="images/frontend.svg" />
+                                <h6>Frontend</h6>
+                                <p>Not just that I can even host the show</p>
+                            </div>
+                            <div class="proficiencies">
+                                <img src="images/react.svg" />
+                                <h6>React</h6>
+                                <p>
+                                    When it comes to react apps I have the
+                                    strength of Atlas
+                                </p>
+                            </div>
+                            <div class="proficiencies">
+                                <img src="images/backend.svg" />
+                                <h6>Backend</h6>
+                                <p>I am the one who runs the show</p>
+                            </div>
+                            <div class="proficiencies">
+                                <img src="images/ds.svg" />
+                                <h6>Data Structures</h6>
+                                <p>
+                                    Putting the right blocks in the right place
+                                    is just my thing
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <script type="text/javascript" src="script.js"></script>
-    
-</body>
+        <section class="s2" style="padding-top: 20px; padding-bottom: 60px">
+            <div class="main-container">
+                <h3 style="text-align: center">Github</h3>
+                <hr />
+                <div class="github-container">
+                    <div class="calendar github-calender"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s3">
+            <div class="main-container">
+                <h3 style="text-align: center">Some of my projects</h3>
+                <hr />
+                <div class="post-wrapper">
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/Swiggy.png" />
+                            <div class="post-preview">
+                                <h4 class="post-title">Swiggy Clone</h4>
+                                <p class="post-intro">
+                                    Clone of Swiggy.com with some basic
+                                    functionalities(Online Payment,User Auth,
+                                    Mapbox etc. )
+                                </p>
+                                <!-- <div class="post-icons">
+                                    <i
+                                        class="fab fa-html5 fa-lg"
+                                        style="background-color: #e54c27"
+                                    ></i>
+                                    <i
+                                        class="fab fa-css3-alt fa-lg"
+                                        style="background-color: #254ce4"
+                                    ></i>
+                                    <i
+                                        class="fab fa-js-square fa-2x"
+                                        style="background-color: #fcd600"
+                                    ></i>
+                                </div> -->
+                                <button class="post-button">
+                                    <a target="_blank" class="post-a" href="https://github.com/fahdshaikh/SwiggyClone">Github Link</a>
+                                </button>
+                                <button class="post-button">
+                                    <a target="_blank" class="post-a" href="https://sweggy.ml/">Live</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/expense.png" />
+                            <div class="post-preview">
+                                <h4 class="post-title">MERN-Expense-manager</h4>
+                                <p class="post-intro">
+                                    A MERN application for an Expanse Manager with dashboard and
+                                    ledger facility. Hasslefree way to track expenses 
+                                </p>
+                                <!-- <div class="post-icons">
+                                    <i
+                                        class="fab fa-html5 fa-lg"
+                                        style="background-color: #e54c27"
+                                    ></i>
+                                    <i
+                                        class="fab fa-css3-alt fa-lg"
+                                        style="background-color: #254ce4"
+                                    ></i>
+                                    <i
+                                        class="fab fa-js-square fa-2x"
+                                        style="background-color: #fcd600"
+                                    ></i>
+                                </div> -->
+                                <button class="post-button">
+                                    <a target="_blank" class="post-a" href="https://github.com/fahdshaikh/MERN-Expanse-manager">Github Link</a>
+                                </button>
+                                <!-- <button class="post-button">
+                                    <a target="_blank" class="post-a" href="https://sweggy.ml/">Live</a>
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/students.png" />
+                            <div class="post-preview">
+                                <h4 class="post-title">APACHE-Students</h4>
+                                <p class="post-intro">
+                                    A CRUD(Create, Read, Update & Delete) Application with Interactive and user friendly UI of student
+                                    details
+                                </p>
+                                <!-- <div class="post-icons">
+                                    <i
+                                        class="fab fa-html5 fa-lg"
+                                        style="background-color: #e54c27"
+                                    ></i>
+                                    <i
+                                        class="fab fa-css3-alt fa-lg"
+                                        style="background-color: #254ce4"
+                                    ></i>
+                                    <i
+                                        class="fab fa-js-square fa-2x"
+                                        style="background-color: #fcd600"
+                                    ></i>
+                                </div> -->
+                                <button class="post-button">
+                                    <a target="_blank" class="post-a" href="https://github.com/fahdshaikh/SwiggyClone">Github Link</a>
+                                </button>
+                                <!-- <button class="post-button">
+                                    <a target="_blank" class="post-a" href="https://sweggy.ml/">Live</a>
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/typeit.png" />
+                            <div class="post-preview">
+                                <h4 class="post-title">typeit</h4>
+                                <p class="post-intro">
+                                    Typeit is a typing game where you get realtime audio feedback and word per minute and accuracy count 
+                                </p>
+                                <!-- <div class="post-icons">
+                                    <i
+                                        class="fab fa-html5 fa-lg"
+                                        style="background-color: #e54c27"
+                                    ></i>
+                                    <i
+                                        class="fab fa-css3-alt fa-lg"
+                                        style="background-color: #254ce4"
+                                    ></i>
+                                    <i
+                                        class="fab fa-js-square fa-2x"
+                                        style="background-color: #fcd600"
+                                    ></i>
+                                </div> -->
+                                <button class="post-button">
+                                    <a target="_blank" class="post-a" href="https://github.com/fahdshaikh/typeit">Github Link</a>
+                                </button>
+                                <button class="post-button">
+                                    <a target="_blank" class="post-a" href="https://typeit.netlify.app/">Live</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="s4">
+            <div class="main-container">
+                <!-- Contact  -->
+                <h3 style="text-align: center">Contact Details...</h3>
+                <hr />
+                <div class="container">
+                    <ul class="table">
+                        <li class="row">
+                            <div class="col-1">Name:</div>
+                            <div class="col-2"><p>Mohd. Fahad Shaikh</p></div>
+                        </li>
+                        <li class="row">
+                            <div class="col-1">Email:</div>
+                            <div class="col-2">
+                                <a
+                                    target="_blank"
+                                    href="mailto:fahadshaikh9776@gmail.com"
+                                    ><p>fahadshaikh9776@gmail.com</p></a
+                                >
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-1">Phone No.:</div>
+                            <div class="col-2"><p>+91-8446006503</p></div>
+                        </li>
+                        <li class="row">
+                            <div
+                                class="col-1"
+                                style="padding: 0; margin: 10px 0 0 0"
+                            >
+                                Social Media Reach:
+                            </div>
+                            <div class="col-2" id="connect-icon-wrapper">
+                                <div class="site-icon">
+                                    <a href="https://github.com/fahdshaikh"
+                                        ><i
+                                            class="fa fa-github fa-2x"
+                                            id="one"
+                                        ></i
+                                    ></a>
+                                </div>
+                                <div class="site-icon">
+                                    <a
+                                        target="_blank"
+                                        href="https://www.linkedin.com/in/fahdshaikh1997"
+                                        ><i
+                                            class="fa fa-linkedin fa-2x"
+                                            id="two"
+                                        ></i
+                                    ></a>
+                                </div>
+                                <div class="site-icon">
+                                    <a
+                                        target="_blank"
+                                        href="https://twitter.com/FahdShaikh_"
+                                        ><i
+                                            class="fa fa-twitter fa-2x"
+                                            id="one"
+                                        ></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-1">Current Location:</div>
+                            <div class="col-2"><p>Maharashtra - Pune</p></div>
+                        </li>
+                        <li class="row">
+                            <div class="col-1">Willing to relocate ??</div>
+                            <div class="col-2"><p>Absolutely..!!</p></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
 </html>
